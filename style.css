@@ -1,0 +1,30 @@
+{ margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { background: #0c1d17; color: #f3f5ed; font-family: Arial, sans-serif; }
+.header { height: 75px; padding: 0 7%; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #294036; }
+.logo { color: #b9d5a5; font-weight: bold; letter-spacing: 2px; text-decoration: none; }
+.country { color: #9bac9c; font-size: 12px; letter-spacing: 3px; }
+.hero { padding: 90px 8% 100px; background: linear-gradient(120deg, #102a20, #193d2b); }
+.eyebrow { color: #a8c98d; font-size: 12px; letter-spacing: 3px; margin-bottom: 20px; }
+h1 { font-size: clamp(38px, 7vw, 68px); line-height: 1.1; margin-bottom: 22px; }
+.subtitle { color: #bdcabe; max-width: 450px; line-height: 1.7; margin-bottom: 30px; }
+.main-button { display: inline-block; background: #a6c88c; color: #102219; padding: 15px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; }
+.features { padding: 45px 7%; display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+.feature { background: #172d23; padding: 23px 12px; border: 1px solid #294438; border-radius: 12px; }
+.feature span { font-size: 28px; }
+.feature h3 { margin: 14px 0 7px; }
+.feature p { color: #9eafa2; font-size: 13px; }
+.map-section { padding: 65px 7%; }
+h2 { font-size: 30px; margin-bottom: 15px; }
+.section-description { color: #aab9ad; line-height: 1.6; margin-bottom: 22px; }
+#map { height: 430px; width: 100%; border-radius: 14px; border: 1px solid #385345; z-index: 1; }
+.about { margin: 25px 7% 60px; padding: 35px; background: #172d23; border-radius: 14px; }
+.about p:last-child { color: #b5c4b7; line-height: 1.8; }
+footer { text-align: center; padding: 28px; color: #819487; font-size: 12px; border-top: 1px solid #294036; }
+@media (max-width: 600px) { .hero { padding: 65px 7%; }
+.features { padding: 25px 5%; gap: 8px; }
+.feature { padding: 15px 8px; }
+.feature h3 { font-size: 14px; }
+.feature p { font-size: 11px; }
+#map { height: 350px; }
+.about { padding: 25px; } }
